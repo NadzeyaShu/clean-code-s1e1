@@ -12,17 +12,18 @@ body {
     text-align: right;
 }
 
-.aaa img {
+.header-container_bg {
     width: 100%;
 }
 
-.aaa .more_inf {
-    font-family: fantasy, cursive;
+.header-container_search-details {
+    font-family: Fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.aaa { text-align: center;
+.header-container {
+    text-align: center;
 }
 
 }
