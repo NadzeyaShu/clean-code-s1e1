@@ -47,11 +47,15 @@ li,
 }
 
 input,
-button {
+.btn-add,
+.btn-edit,
+.btn-delete {
     outline: none;
 }
 
-button {
+.btn-add,
+.btn-edit,
+.btn-delete {
     background: none;
     border: 0px;
     color: #888;
@@ -61,7 +65,9 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.btn-add:hover,
+.btn-edit:hover,
+.btn-delete:hover {
     color: #3a3A3a;
 }
 
