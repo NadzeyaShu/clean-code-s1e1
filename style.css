@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -20,13 +20,6 @@ body {
     font-family: Fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
-.header-container {
-    text-align: center;
-}
-
-}
 .main-container {
     display: block;
     width: 500px;
@@ -45,7 +38,7 @@ body {
 
 ul {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 li,
@@ -82,7 +75,8 @@ label[for="new-task"] {
     padding: 30px 0 10px;
     margin: 0;
     text-transform: uppercase;
-}
+}                                                       /*todo -reset style */
+
 
 input[type="text"] {
     margin: 0;
@@ -168,4 +162,12 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
     display: none;
+}
+
+@media (max-width:768px) {
+
+    .header-container {
+        text-align: center;
+    }
+
 }
