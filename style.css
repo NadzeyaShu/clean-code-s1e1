@@ -42,7 +42,7 @@ ul {
 }
 
 li,
-h3 {
+.main-container-title {
     list-style: none;
 }
 
@@ -66,7 +66,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.main-container-title,
 label[for="new-task"] {
     color: #333;
     font-weight: 700;
@@ -75,7 +75,7 @@ label[for="new-task"] {
     padding: 30px 0 10px;
     margin: 0;
     text-transform: uppercase;
-}                                                       /*todo -reset style */
+}
 
 
 input[type="text"] {
@@ -134,13 +134,13 @@ li > input[type="text"] {
     width: 226px;
 }
 
-button.delete img {
+.btn-delete-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.btn-delete-img:hover {
     transform: rotateZ(0);
 }
 
