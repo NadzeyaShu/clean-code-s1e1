@@ -36,7 +36,9 @@
     display: flex;
 }
 
-ul {
+/*ul,*/
+.list-incomplete-tasks,
+.list-complete-tasks {
     margin: 0;
     padding: 0;
 }
