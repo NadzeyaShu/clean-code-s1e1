@@ -114,7 +114,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.list-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -159,16 +159,16 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.item-input-task {
     display: none;
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
     display: none;
 }
 
