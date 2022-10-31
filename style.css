@@ -122,7 +122,12 @@ input-task:focus {
     align-items: center;
 }
 
-.list-item > * {
+.list-item > input-task,
+.select-checkbox,
+.label-task,
+.btn-edit,
+.btn-delete,
+.btn-delete-img {
     vertical-align: middle;
 }
 
